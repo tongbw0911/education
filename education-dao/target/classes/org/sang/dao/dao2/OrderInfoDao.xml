@@ -28,7 +28,7 @@
         <result property="remarkCus" column="remark_cus" jdbcType="VARCHAR"/>
         <result property="remark" column="remark" jdbcType="VARCHAR"/>
         <result property="payTime" column="pay_time" jdbcType="TIMESTAMP"/>
-        <result property="payno" column="pay_no" jdbcType="VARCHAR"/>
+        <result property="payNo" column="pay_no" jdbcType="VARCHAR"/>
     </resultMap>
 
     <!--查询单个-->
@@ -128,8 +128,8 @@
             <if test="payTime != null">
                 and pay_time = #{payTime}
             </if>
-            <if test="payno != null">
-                and pay_no = #{payno}
+            <if test="payNo != null">
+                and pay_no = #{payNo}
             </if>
         </where>
     </select>
@@ -216,8 +216,8 @@
             <if test="payTime != null">
                 pay_time = #{payTime},
             </if>
-            <if test="payno != null">
-                pay_no = #{payno},
+            <if test="payNo != null">
+                pay_no = #{payNo},
             </if>
         </set>
         where id = #{id}

@@ -27,8 +27,6 @@ public class SwaggerApp {
         return new ApiInfoBuilder()
                 //页面标题
                 .title("领课教育系统API")
-                //创建人
-                .contact(new Contact("Bryan", "http://blog.bianxh.top/", "1807915746@qq.com"))
                 //版本号
                 .version("1.0")
                 //描述

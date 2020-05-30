@@ -49,6 +49,7 @@ public class DirectReceiver {
         order.setCourseId(Long.valueOf(curriculum.getId()));
         order.setPriceDiscount(new Double(curriculum.getCurriculumprice()));
         order.setPricePayable(new Double(curriculum.getCurriculumprice()));
+//        order.setPayno(null);
         System.out.println("消息::::::::::::::::"+curriculum.getCurriculumprice());
         int num = orderInfoDao.insert(order);
         if(num>0){

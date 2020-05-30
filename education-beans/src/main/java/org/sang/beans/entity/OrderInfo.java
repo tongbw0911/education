@@ -112,14 +112,14 @@ public class OrderInfo implements Serializable {
     */
     private Date payTime;
 
-    private String payno;
+    private String payNo;
 
-    public String getPayno() {
-        return payno;
+    public String getPayNo() {
+        return payNo;
     }
 
-    public void setPayno(String payno) {
-        this.payno = payno;
+    public void setPayNo(String payNo) {
+        this.payNo = payNo;
     }
 
     public Long getId() {
