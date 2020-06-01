@@ -121,7 +121,7 @@ public class WxPayController {
                     order.setOrderStatus(2);
                     order.setPayTime(new Date());
                     order.setPayType(1);
-                    order.setPayno(trade_no);
+                    order.setPayNo(trade_no);
                     order.setId(orderList.get(0).getId());
                     orderDao.update(order);
                 }

@@ -72,7 +72,7 @@ public class NotifyUrlController {
             order.setOrderStatus(2);
             order.setPayTime(new Date());
             order.setPayType(3);
-            order.setPayno(orderId);
+            order.setPayNo(orderId);
             order.setId(orderList.get(0).getId());
             orderDao.update(order);
 

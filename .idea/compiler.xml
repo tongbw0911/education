@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="education-system" />
         <module name="education-search" />
         <module name="education-dao" />
         <module name="education-pay" />
         <module name="education-trade" />
         <module name="education-beans" />
-        <module name="education-auth" />
         <module name="education-purchase" />
+        <module name="education-auth" />
+        <module name="education-system" />
       </profile>
     </annotationProcessing>
   </component>
